@@ -1,0 +1,38 @@
+.badge-counter {
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    right: 1.1rem;
+}
+
+.menu-image {
+    object-fit: cover;
+}
+
+.brand-icon {
+    letter-spacing: .2rem;
+}
+
+.card-comment {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-comment:hover {
+    cursor: pointer;
+    transform: translateY(0) scale(1.05);
+    box-shadow: 2px 2px 10px rgb(194, 194, 194);
+}
+
+.menu-image-index {
+    object-fit: cover; height: 100%; width: 100%;
+    overflow: hidden;
+}
+
+.menu-image-index:hover {
+    z-index: 1;
+    margin: 0;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0; transform: scale(1.1);
+    transition: 0.25s transform ease-in-out;
+}
